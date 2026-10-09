@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>별에게 쓰는 소원 일기</title>
 <meta name="description" content="날짜를 고르고 'Dear Star,'로 시작하는 오늘의 이야기를 적어보세요. 내가 쓴 일기가 밤하늘의 별이 되는 감성 캘린더 일기장.">
+<link rel="icon" href="assets/icon.png">
 <style>
   :root{
     --night:#0E1026;
@@ -28,6 +29,7 @@
   header{position:sticky;top:0;z-index:10;background:rgba(14,16,38,0.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);}
   header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;}
   .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;}
+  .brand img{width:32px;height:32px;border-radius:8px;}
   nav{display:flex;gap:28px;font-size:14px;font-weight:600;color:var(--ink-soft);}
   nav a:hover{color:var(--gold);}
   .btn{
@@ -104,7 +106,7 @@
 
 <header>
   <div class="wrap">
-    <div class="brand">💫 별에게 쓰는 소원 일기</div>
+    <div class="brand"><img src="assets/icon.png" alt="별에게 쓰는 소원 일기 아이콘"> 별에게 쓰는 소원 일기</div>
     <nav>
       <a href="#features">소개</a>
       <a href="#how">사용법</a>
